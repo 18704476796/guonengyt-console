@@ -1,0 +1,33 @@
+.box >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.box >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.box >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.box >>> .el-switch__label.is-active
+  display: block
+.box >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important
+
+.drawerBox >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.drawerBox >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.drawerBox >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.drawerBox >>> .el-switch__label.is-active
+  display: block
+.drawerBox >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important

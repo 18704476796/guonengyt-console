@@ -1,0 +1,13 @@
+.titleH3
+    line-height: 40px
+    height: 40px
+    background: #3A8EE6
+    border-radius: 6px 6px 0px 0px
+    text-align: center
+    color: #fff
+    font-size: 14px
+  .el-transfer
+    height: 100%
+  .el-transfer >>> .el-transfer-panel
+    width: 38%
+    height: 100%

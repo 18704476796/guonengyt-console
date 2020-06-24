@@ -1,0 +1,73 @@
+.box >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.box >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.box >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.box >>> .el-switch__label.is-active
+  display: block
+.box >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important
+
+.drawerBox >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.drawerBox >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.drawerBox >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.drawerBox >>> .el-switch__label.is-active
+  display: block
+.drawerBox >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important
+.checkTable
+  div
+    width 100%
+    display flex
+    min-height 30px
+  label
+    width 120px
+    height auto
+    line-height 35px
+    text-align center
+  span
+    padding 5px
+    line-height 30px
+    img
+      width 158px
+      height 100px
+      transform: scale(1)        /*图片原始大小1倍*/
+      transition: all ease 0.5s  /*图片放大所用时间*/
+    img.active
+     transform: scale(2.5) /*图片需要放大3倍*/
+     position: absolute /*是相对于前面的容器定位的，此处要放大的图片，不能使用position：relative；以及float，否则会导致z-index无效*/
+     z-index: 100
+.checkTable>>>.imgDiv
+  height 110px
+  line-height 110px
+.checkButton
+  margin-top 20px
+  text-align center
+.drawerBox>>>.el-drawer__body
+  overflow scroll
+.drawerBox>>>.el-textarea__inner
+  min-height: 80px !important
+.detailTitle
+  text-align: center
+  font-size 16px
+  margin-bottom 20px
+.detailText
+  line-height: 20px
+.detailText>>>img
+  max-width 100%

@@ -1,0 +1,41 @@
+.box
+  background-position: center
+  background-size: cover
+  .box-position
+    width: 100%
+    position: absolute
+    top: 50%
+    margin-top: -288px
+    img
+      display: block
+      width: 100px
+      margin: auto
+    h3
+      margin-top: 20px
+      margin-bottom: 20px
+      text-align: center
+      font-size: 30px
+      color: #fff
+    .loginTime
+      text-align: center
+      font-size: 14px
+      color: #fff
+      margin-top: 10px
+    .icon-welcome
+      font-size: 160px
+      text-align: center
+      color: #606da8
+    .list
+      width: 328px
+      height: 170px
+      padding: 10px
+      margin: auto
+      /* background-position: center
+      background-size: cover */
+      ul
+        background: rgba(0,0,0,0.36)
+        padding: 20px
+        li
+          color: #fff
+          font-size: 16px
+          line-height: 26px

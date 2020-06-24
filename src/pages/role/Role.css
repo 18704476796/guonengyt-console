@@ -1,0 +1,14 @@
+.span
+  margin-right: 20px
+.color1
+  display: inline-block
+  width: 200px
+  color: #25A4BB
+.color2
+  display: inline-block
+  width: 100px
+  color: #13CE66
+.color3
+  color: #666666
+.box >>> .el-form-item__content
+  flex: 1

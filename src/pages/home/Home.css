@@ -1,0 +1,14 @@
+.el-header
+  background: #409EFF
+  padding: 0
+.left
+  float: left
+.right
+  float: right
+.el-aside
+  background: #303133
+.el-main
+  background: #fff
+  padding: 10px
+.el-footer
+  background: #DCDFE6

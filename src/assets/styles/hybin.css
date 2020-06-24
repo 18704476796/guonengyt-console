@@ -1,0 +1,125 @@
+body{
+  min-width: 1200px;
+}
+.hyb_clear{
+	zoom:1;
+}
+.hyb_clear:after{
+	display:block;
+	clear:both;
+	content: '';
+	visibility:hidden;height:0
+}
+/* 自定义属性 */
+.hyb_tsn{/* CSS3过渡效果 */
+	transition:/*兼容IE10以上浏览器*/
+		box-shadow 0.5s,
+		font-size 0.5s,
+		background 0.5s,
+		font-weight 0.5s,
+		color 0.5s,
+		border-bottom 0.5s,
+		border 0.5s,
+		width 0.5s,
+		height 0.5s,
+		margin-top 0.5s,
+		margin-left 0.5s,
+		line-height 0.5s,
+		transform 0.5s,
+		bottom 0.5s,
+		top 0.5s,
+		opacity 0.5s,
+		border-radius 0.5s,
+		margin-bottom 0.5s;
+	-webkit-transition:/*兼容苹果和谷歌浏览器*/
+		box-shadow 0.5s,
+		font-size 0.5s,
+		background 0.5s,
+		font-weight 0.5s,
+		color 0.5s,
+		border-bottom 0.5s,
+		border 0.5s,
+		width 0.5s,
+		height 0.5s,
+		margin-top 0.5s,
+		margin-left 0.5s,
+		line-height 0.5s,
+		-webkit-transform 0.5s,
+		bottom 0.5s,
+		top 0.5s,
+		opacity 0.5s,
+		border-radius 0.5s,
+		margin-bottom 0.5s;
+	-moz-transition:/*兼容火狐浏览器*/
+		font-size 0.5s,
+		background 0.5s,
+		font-weight 0.5s,
+		color 0.5s,
+		border-bottom 0.5s,
+		border 0.5s,
+		width 0.5s,
+		height 0.5s,
+		margin-top 0.5s,
+		margin-left 0.5s,
+		line-height 0.5s,
+		-moz-transform 0.5s,
+		bottom 0.5s,
+		top 0.5s,
+		opacity 0.5s,
+		border-radius 0.5s,
+		margin-bottom 0.5s;
+	-o-transition:/*兼容Opera浏览器*/
+		font-size 0.5s,
+		background 0.5s,
+		font-weight 0.5s,
+		color 0.5s,
+		border-bottom 0.5s,
+		border 0.5s,
+		width 0.5s,
+		height 0.5s,
+		margin-top 0.5s,
+		margin-left 0.5s,
+		line-height 0.5s,
+		-o-transform 0.5s,
+		bottom 0.5s,
+		top 0.5s,
+		opacity 0.5s,
+		border-radius 0.5s,
+		margin-bottom 0.5s;
+}
+/* 谷歌内核 滚动条 */
+::-webkit-scrollbar-track {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	background: rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.4);
+}
+::-webkit-scrollbar{
+	width:8px;
+	height:10px;
+	background:rgba(222,222,222,0.3);
+	transition:all 0.3s ease-in-out;
+	border-radius:0px
+}
+::-webkit-scrollbar-thumb{
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	background: rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:hover{
+	background:rgba(0,0,0,0.6)
+}
+::-webkit-scrollbar-thumb:active{
+	background:rgba(0,0,0,0.8)
+}
+/* @media screen and (max-width: 1200px) {
+    body {
+        background-color:lightblue;
+    }
+} */

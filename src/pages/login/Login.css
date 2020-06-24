@@ -1,0 +1,50 @@
+.loginBox
+  height: 100%
+  .login-float
+    width: 800px
+    height: 300px
+    background: rgba(0,0,0,0.1)
+    position: absolute
+    top: 50%
+    left: 50%
+    margin-top: -200px
+    margin-left: -400px
+    border-radius: 6px
+    border: #33506D solid 1px
+    .login-leftBox
+      margin-top: 50px
+      margin-left: 50px
+    .login-left
+      float: left
+      img
+        width:200px
+    .login-right >>> input
+      background: transparent
+      border-top: none
+      border-left: none
+      border-right: none
+      color: #fff
+    .login-right
+      float: right
+      width: 300px
+      margin-top: 20px
+      margin-right: 50px
+      h3
+        font-size: 16px
+        color: #409EFF
+        letter-spacing: 2px
+      li
+        margin-top: 28px
+      .inputYzm
+        width: 160px
+      .inputYzmImg
+        width: 90px
+        height: 38px
+        margin-left: 10px
+      .inputYzmBtn
+        width: 40px
+        height: 40px
+        font-size: 20px
+      .loginBtn
+        width: 100%
+        letter-spacing: 20px
